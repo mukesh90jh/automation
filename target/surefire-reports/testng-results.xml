@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testcase.GitHubLogin" duration-ms="48372" started-at="2016-11-03T05:21:17Z" finished-at="2016-11-03T05:22:05Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="48372" started-at="2016-11-03T05:21:17Z" finished-at="2016-11-03T05:22:05Z">
+      <class name="testcase.GitHubLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.GitHubLogin@1a407d53]" name="setup" is-config="true" duration-ms="21845" started-at="2016-11-03T10:51:17Z" finished-at="2016-11-03T10:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginWithValidCreadentails()[pri:0, instance:testcase.GitHubLogin@1a407d53]" name="LoginWithValidCreadentails" duration-ms="6493" started-at="2016-11-03T10:51:39Z" finished-at="2016-11-03T10:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCreadentails -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcase.GitHubLogin@1a407d53]" name="quit" is-config="true" duration-ms="79" started-at="2016-11-03T10:51:45Z" finished-at="2016-11-03T10:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.GitHubLogin@1a407d53]" name="setup" is-config="true" duration-ms="17046" started-at="2016-11-03T10:51:46Z" finished-at="2016-11-03T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginWithInValidCreadentails()[pri:0, instance:testcase.GitHubLogin@1a407d53]" name="LoginWithInValidCreadentails" duration-ms="2826" started-at="2016-11-03T10:52:03Z" finished-at="2016-11-03T10:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInValidCreadentails -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcase.GitHubLogin@1a407d53]" name="quit" is-config="true" duration-ms="69" started-at="2016-11-03T10:52:05Z" finished-at="2016-11-03T10:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcase.GitHubLogin -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testcase.GitHubLogin -->
+</testng-results>

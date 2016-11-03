@@ -48,7 +48,7 @@ public class GitHubLogin {
 
 	@AfterMethod
 	public void quit(){
-		//driver.quit();
+		driver.quit();
 	}
 
 }
