@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.GitHubLogin" hash-for-method="LoginWithInValidCreadentails">LoginWithInValidCreadentails</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.DynamicTable" hash-for-method="Handle_Dynamic_Webtable">Handle_Dynamic_Webtable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.GitHubLogin" hash-for-method="LoginWithValidCreadentails">LoginWithValidCreadentails</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.DynamicTable" hash-for-method="printrowcolumnofvalue">printrowcolumnofvalue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.DynamicTable" hash-for-method="readParticularCellValue">readParticularCellValue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -124,21 +129,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcase.GitHubLogin</span>
+              <span class="class-name">testcase.DynamicTable</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginWithInValidCreadentails">
-                  </a> <!-- LoginWithInValidCreadentails -->
-                  <span class="method-name">LoginWithInValidCreadentails</span>
+                  <a name="Handle_Dynamic_Webtable">
+                  </a> <!-- Handle_Dynamic_Webtable -->
+                  <span class="method-name">Handle_Dynamic_Webtable</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginWithValidCreadentails">
-                  </a> <!-- LoginWithValidCreadentails -->
-                  <span class="method-name">LoginWithValidCreadentails</span>
+                  <a name="printrowcolumnofvalue">
+                  </a> <!-- printrowcolumnofvalue -->
+                  <span class="method-name">printrowcolumnofvalue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readParticularCellValue">
+                  </a> <!-- readParticularCellValue -->
+                  <span class="method-name">readParticularCellValue</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +158,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse-31652037/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse-2085040825/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -155,7 +167,7 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcase.GitHubLogin&quot;/&gt;
+      &lt;class name=&quot;testcase.DynamicTable&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -195,20 +207,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginWithValidCreadentails')
-data.setCell(0, 2, 'testcase.GitHubLogin')
-data.setCell(0, 3, 4811);
+data.setCell(0, 1, 'Handle_Dynamic_Webtable')
+data.setCell(0, 2, 'testcase.DynamicTable')
+data.setCell(0, 3, 600);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginWithInValidCreadentails')
-data.setCell(1, 2, 'testcase.GitHubLogin')
-data.setCell(1, 3, 3642);
+data.setCell(1, 1, 'printrowcolumnofvalue')
+data.setCell(1, 2, 'testcase.DynamicTable')
+data.setCell(1, 3, 525);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'readParticularCellValue')
+data.setCell(2, 2, 'testcase.DynamicTable')
+data.setCell(2, 3, 117);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -234,31 +250,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcase.GitHubLogin</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="chronological-class-name">testcase.DynamicTable</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">LoginWithValidCreadentails</span>
-                <span class="method-start">21599 ms</span>
+                <span class="method-name">Handle_Dynamic_Webtable</span>
+                <span class="method-start">3555 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">26411 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">26412 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">LoginWithInValidCreadentails</span>
-                <span class="method-start">48572 ms</span>
+                <span class="method-name">readParticularCellValue</span>
+                <span class="method-start">4156 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">52216 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">printrowcolumnofvalue</span>
+                <span class="method-start">4274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4802 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcase.GitHubLogin">
+      <class name="testcase.DynamicTable">
         <methods>
-          <include name="LoginWithInValidCreadentails"/>
-          <include name="LoginWithValidCreadentails"/>
-          <include name="quit"/>
+          <include name="readParticularCellValue"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testcase.GitHubLogin -->
+      </class> <!-- testcase.DynamicTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
