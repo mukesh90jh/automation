@@ -1,0 +1,7 @@
+_message_xalan
+all
+copy-images
+report
+run
+verify-images
+xslt-report

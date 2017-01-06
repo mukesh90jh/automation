@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="194" lt="194" ts="1480423661044" s="true" lb="TeacherRegister" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1324"/>
+<httpSample t="195" lt="195" ts="1480423661044" s="true" lb="TeacherRegister" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1326"/>
+
+</testResults>
+1482321717845,322,TeacherRegister,500,Internal Server Error,Thread Group 1-2,text,false,1241,2,2,314
+1482321717845,322,TeacherRegister,500,Internal Server Error,Thread Group 1-1,text,false,1241,2,2,314
