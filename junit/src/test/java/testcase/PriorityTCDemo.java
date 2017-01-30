@@ -2,9 +2,12 @@ package testcase;
 
 import org.junit.Test;
 import org.junit.FixMethodOrder;
+import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
+/*@RunWith(MyRunner.class)
+*/
 public class PriorityTCDemo {
 
 	/**
@@ -12,6 +15,9 @@ public class PriorityTCDemo {
 	 * http://stackoverflow.com/questions/13911716/running-junit-test-suite-using-maven
 	 * https://github.com/junit-team/junit4/wiki/Test-execution-order
 	 * http://maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html#runOrder
+	 * http://memorynotfound.com/add-junit-listener-example/
+	 * https://dzone.com/articles/junit-listener
+	 * http://stackoverflow.com/questions/2846493/is-there-a-decent-html-junit-report-plugin-for-maven
 	 * <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
