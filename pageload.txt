@@ -1,0 +1,46 @@
+
+    public static ExpectedCondition<Boolean> waitForPageLoadUsingJS(){
+        return new ExpectedCondition<Boolean>() {
+            public Boolean apply(WebDriver driver) {
+                try {
+                    Object readyState= ((JavascriptExecutor) driver).executeScript("return document.readyState;");
+                    return readyState.toString().equalsIgnoreCase("complete");
+                }catch(UnreachableBrowserException e){
+                    return null;
+                }
+            }
+        };
+    }
+
+  
+
+    /**
+     * This function will wait for ajax calls to finish
+     * @param driver
+     * @param timeoutInSeconds
+     */
+    public static void waitForAjax(WebDriver driver,int timeoutInSeconds)  {
+        try {
+            if (driver instanceof JavascriptExecutor) {
+                JavascriptExecutor jsDriver = (JavascriptExecutor)driver;
+
+                for (int i = 0; i< timeoutInSeconds; i++)
+                {
+                    Object numberOfAjaxConnections = jsDriver.executeScript("return jQuery.active");
+                    // return should be a number
+                    if (numberOfAjaxConnections instanceof Long) {
+                        Long n = (Long)numberOfAjaxConnections;
+                        System.out.println("Number of active jquery ajax calls: " + n);
+                        if (n.longValue() == 0L)
+                            break;
+                    }
+                    Thread.sleep(1000);
+                }
+            }
+            else {
+                System.out.println("Web driver: " + driver + " cannot execute javascript");
+            }
+        }
+        catch (Exception e) {
+        }
+    }
